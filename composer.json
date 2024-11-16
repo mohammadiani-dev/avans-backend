@@ -1,0 +1,15 @@
+{
+    "name": "avans/gamify",
+    "description": "power full tool for implementation gamification methods in wordpress cms",
+    "autoload": {
+        "psr-4": {
+            "avansdp\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yousef Mohammadiani"
+        }
+    ],
+    "require": {}
+}
