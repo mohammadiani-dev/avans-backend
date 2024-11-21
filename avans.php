@@ -37,6 +37,8 @@ class avans
 
     public function init() : void
     {
+        new \avansdp\constants();
+        new \avansdp\database();
         new \avansdp\settings();
     }
 }
