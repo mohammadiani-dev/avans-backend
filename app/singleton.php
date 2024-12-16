@@ -21,4 +21,5 @@ abstract class singleton
 
     public function __clone() {}
     public function __wakeup() {}
+
 }

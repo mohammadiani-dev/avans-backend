@@ -4,7 +4,8 @@ class database extends singleton {
 
     const tables = [
         'points_transactions',
-        'notifications'
+        'points_transactions_meta',
+        'notifications',
     ];
 
     public function init(): void
@@ -30,6 +31,17 @@ class database extends singleton {
         }
     }
 
+    public function get_sql_create_points_transactions_meta_tbl( $table_name ): string
+    {
+        return "CREATE TABLE $table_name (
+            id bigint(20) NOT NULL AUTO_INCREMENT,
+            log_id bigint(20) NOT NULL,
+            meta_key varchar(250) NOT NULL,
+            meta_value TEXT NOT NULL,
+            PRIMARY KEY  (id)
+        )";
+    }
+
     public function get_sql_create_points_transactions_tbl( $table_name ): string
     {
         return "CREATE TABLE $table_name (
@@ -38,7 +50,7 @@ class database extends singleton {
             action varchar(50) NOT NULL,
             score int(11) NOT NULL,
             total int(11) NOT NULL,
-            status tinyint(1) NOT NULL,
+            status tinyint(1) NOT NULL DEFAULT 1,
             created_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
             expire_date datetime NULL,
             PRIMARY KEY  (id)
@@ -50,15 +62,19 @@ class database extends singleton {
         return "CREATE TABLE $table_name (
             id bigint(20) NOT NULL AUTO_INCREMENT,
             user_id bigint(20) NOT NULL,
-            message_type varchar(50) NOT NULL,
-            message TEXT NOT NULL,
-            message_id bigint(20) NULL,
-            parent_id bigint(20) NULL,
-            status tinyint(1) NOT NULL,
-            extera TEXT NULL,
+            type ENUM('toast', 'email', 'sms')  NOT NULL,
+            template_id bigint(20) NULL,
+            status ENUM('pending' , 'success' , 'failed') DEFAULT 'pending' NOT NULL,
+            data json NULL,
+            response varchar(256) NULL,
             created_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
             scheduled_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-            PRIMARY KEY  (id)
+            sended_at timestamp NULL DEFAULT NULL,
+            PRIMARY KEY  (id),
+            INDEX idx_user_id (user_id), 
+            INDEX idx_scheduled_at (scheduled_at),
+            INDEX idx_status (status),
+            INDEX idx_type (type)
         )";
     }
 

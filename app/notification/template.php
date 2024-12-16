@@ -1,17 +1,28 @@
-<?php namespace  avansdp\notification;
+<?php
+class template
+{
+    private $message;
+    private $data;
 
-class EmailTemplate{
-
-    private $file_path;
-
-    public  function  __construct($file_path)
+    public function __construct( $message , array $data)
     {
-        $this->file_path = $file_path;
+        $this->message = $message;
+        $this->data = $data;
     }
 
-    public function render( $data )
+    public function render()
     {
 
+        if ($this->message) {
+            foreach ($this->data as $index => $var) {
+                $this->message = str_replace('{' . $index . '}', $var, $this->message);
+            }
+
+
+        }
+
+
     }
+
 
 }

@@ -1,11 +1,11 @@
 <?php namespace  avansdp;
 
-use avansdp\override\ajax;
+use avansdp\traits\useAjax;
 
 class settings extends singleton
 {
 
-    use ajax;
+    use useAjax;
 
     public function init()
     {

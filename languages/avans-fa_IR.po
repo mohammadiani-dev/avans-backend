@@ -1,0 +1,1775 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: avans gamification plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-20 18:46+0330\n"
+"PO-Revision-Date: 2022-10-20 18:48+0330\n"
+"Last-Translator: \n"
+"Language-Team: فارسی\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: avans.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.5.0; wp-5.6\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: app/classes/admin.php:122
+msgid "Order referrer:"
+msgstr "معرف سفارش:"
+
+#: app/classes/admin.php:176
+msgid "Maximum amount of discount code"
+msgstr "سقف میزان اعمال کد تخفیف"
+
+#: app/classes/admin.php:177
+msgid "e.g 1000"
+msgstr "مثلا 1000"
+
+#: app/classes/admin.php:178
+msgid ""
+"Discount ceiling for percentage discount code based on WooCommerce currency"
+msgstr "سقف میزان تخفیف برای کد تخفیف های درصدی بر اساس واحد پولی ووکامرس"
+
+#: app/classes/admin.php:200 app/classes/admin.php:224
+msgid "Points for product purchase"
+msgstr "امتیاز به ازای خرید محصول"
+
+#: app/classes/admin.php:205
+msgid ""
+"This amount will be added to the user at the time of purchasing this product."
+msgstr ""
+"این میزان امتیاز در ازای خرید این محصول به مجموع امتیازات کاربر اضافه میشود."
+
+#: app/classes/admin.php:210 app/classes/admin.php:230
+msgid "Points required to buy this product"
+msgstr "امتیاز لازم برای خرید این محصول"
+
+#: app/classes/admin.php:215
+msgid ""
+"This amount of points is deducted from the user's points instead of payment"
+msgstr "این میزان امتیاز به جای پرداخت وجه از امتیازات کاربر کاسته می شود"
+
+#: app/classes/admin.php:268 app/classes/admin.php:269
+msgid "avans"
+msgstr "آوانس"
+
+#: app/classes/admin.php:284 app/classes/admin.php:285
+msgid "Update"
+msgstr "به روزرسانی"
+
+#: app/classes/admin.php:296 app/classes/admin.php:297
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: app/classes/admin.php:305 app/classes/admin.php:306
+msgid "users"
+msgstr "کاربران"
+
+#: app/classes/admin.php:315 app/classes/admin.php:316
+msgid "badges"
+msgstr "نشان ها"
+
+#: app/classes/admin.php:324 app/classes/admin.php:325
+#: app/classes/admin.php:398 app/classes/admin.php:400
+#: app/classes/admin.php:412
+msgid "Awards"
+msgstr "جوایز و هدایا"
+
+#: app/classes/admin.php:333 app/classes/admin.php:334
+#: app/classes/admin.php:467 app/classes/admin.php:468
+#: app/classes/admin.php:469
+msgid "Lucky Wheel"
+msgstr "گردونه شانس"
+
+#: app/classes/admin.php:342 app/classes/admin.php:343
+#: app/classes/admin.php:502 app/classes/admin.php:503
+#: app/classes/admin.php:516 app/classes/data.php:72
+#: templates/front/panel/content/sections/settings.php:123
+msgid "Lottery"
+msgstr "قرعه کشی"
+
+#: app/classes/admin.php:351 app/classes/admin.php:352
+#: app/classes/admin.php:434 app/classes/admin.php:435
+#: app/classes/admin.php:447
+msgid "Voucher code"
+msgstr "کد ووچر"
+
+#: app/classes/admin.php:359 app/classes/admin.php:360
+msgid "Score reports"
+msgstr "گزارشات امتیاز"
+
+#: app/classes/admin.php:369 app/classes/admin.php:370
+msgid "Marketing reports"
+msgstr "گزارشات بازاریابی"
+
+#: app/classes/admin.php:378 app/classes/admin.php:379
+msgid "Awards reports"
+msgstr "گزارشات جوایز"
+
+#: app/classes/admin.php:399
+msgid "Award"
+msgstr "جوایز و هدایا"
+
+#: app/classes/admin.php:401
+msgid "all awards"
+msgstr "همه جوایز"
+
+#: app/classes/admin.php:402 app/classes/admin.php:437
+#: app/classes/admin.php:471 app/classes/admin.php:505
+#: app/classes/admin.php:541
+msgid "view"
+msgstr "مشاهده"
+
+#: app/classes/admin.php:403
+msgid "Add a new award"
+msgstr "افزودن جایزه جدید"
+
+#: app/classes/admin.php:404 app/classes/admin.php:439
+#: app/classes/admin.php:473 app/classes/admin.php:507
+#: app/classes/admin.php:543
+msgid "Add"
+msgstr "افزودن"
+
+#: app/classes/admin.php:405
+msgid "Edit award"
+msgstr "ویرایش جایزه"
+
+#: app/classes/admin.php:406
+msgid "Award update"
+msgstr "به ‌روز رسانی جایزه"
+
+#: app/classes/admin.php:407 app/classes/admin.php:442
+#: app/classes/admin.php:476 app/classes/admin.php:510
+#: app/classes/admin.php:546
+msgid "search"
+msgstr "جستجو"
+
+#: app/classes/admin.php:408
+msgid "No awards found!"
+msgstr "هیچ جایزه ای پیدا نشد!"
+
+#: app/classes/admin.php:409
+msgid "No awards found in the trash!"
+msgstr "هیچ جایزه ای در زباله دان پیدا نشد!"
+
+#: app/classes/admin.php:413
+msgid "Awards for avans plugin"
+msgstr "جوایز افزونه آوانس"
+
+#: app/classes/admin.php:433
+msgid "Voucher codes"
+msgstr "کدهای ووچر"
+
+#: app/classes/admin.php:436 app/classes/admin.php:438
+msgid "all Voucher codes"
+msgstr "همه کد های ووچر"
+
+#: app/classes/admin.php:440
+msgid "Edit Voucher code"
+msgstr "ویرایش کد ووچر"
+
+#: app/classes/admin.php:441
+msgid "Voucher code update"
+msgstr "به روزرسانی کد ووچر"
+
+#: app/classes/admin.php:443
+msgid "No voucher codes found!"
+msgstr "هیچ کد ووچری پیدا نشد!"
+
+#: app/classes/admin.php:444
+msgid "No voucher codes found in the trash!"
+msgstr "هیچ کد ووچری در زباله دان پیدا نشد!"
+
+#: app/classes/admin.php:448
+msgid "Voucher code for avans plugin"
+msgstr "کد ووچر افزونه آوانس"
+
+#: app/classes/admin.php:470
+msgid "all Lucky Wheels"
+msgstr "همه گردونه های شانس"
+
+#: app/classes/admin.php:472
+msgid "Add a new Lucky Wheel"
+msgstr "افزودن گردونه شانس جدید"
+
+#: app/classes/admin.php:474
+msgid "Edit Lucky Wheel"
+msgstr "ویرایش گردونه شانس"
+
+#: app/classes/admin.php:475
+msgid "Lucky Wheel update"
+msgstr "به روزرسانی گردونه شانس"
+
+#: app/classes/admin.php:477
+msgid "No Lucky Wheels found!"
+msgstr "هیچ گردونه ی شانسی پیدا نشد!"
+
+#: app/classes/admin.php:478
+msgid "No Lucky Wheels found in the trash!"
+msgstr "هیچ گردونه ی شانسی در زباله دان پیدا نشد!"
+
+#: app/classes/admin.php:481
+msgid "Lucky Wheels"
+msgstr "گردونه های شانس"
+
+#: app/classes/admin.php:482
+msgid "Lucky Wheel for avans plugin"
+msgstr "گردونه شانس افزونه آوانس"
+
+#: app/classes/admin.php:501
+msgid "Lotteries"
+msgstr "قرعه کشی"
+
+#: app/classes/admin.php:504
+msgid "All lotteries"
+msgstr "همه قرعه کشی ها"
+
+#: app/classes/admin.php:506
+msgid "Add a new lottery"
+msgstr "افزودن قرعه کشی جدید"
+
+#: app/classes/admin.php:508
+msgid "Edit lottery"
+msgstr "ویرایش قرعه کشی"
+
+#: app/classes/admin.php:509
+msgid "lottery update"
+msgstr "به روزرسانی قرعه کشی"
+
+#: app/classes/admin.php:511
+msgid "No lotteries found!"
+msgstr "هیچ قرعه کشی ای پیدا نشد!"
+
+#: app/classes/admin.php:512
+msgid "No lotteries found in the trash!"
+msgstr "هیچ قرعه کشی ای در زباله دان پیدا نشد!"
+
+#: app/classes/admin.php:517
+msgid "Lottery for avans plugin"
+msgstr "قرعه کشی افزونه آوانس"
+
+#: app/classes/admin.php:537 app/classes/admin.php:539
+#: app/classes/admin.php:552
+msgid "Badges"
+msgstr "نشان ها"
+
+#: app/classes/admin.php:538
+msgid "Badge"
+msgstr "نشان"
+
+#: app/classes/admin.php:540
+msgid "All Badges"
+msgstr "همه نشان ها"
+
+#: app/classes/admin.php:542
+msgid "Add a new Badge"
+msgstr "افزودن نشان جدید"
+
+#: app/classes/admin.php:544
+msgid "Edit Badge"
+msgstr "ویرایش نشان"
+
+#: app/classes/admin.php:545
+msgid "Badge update"
+msgstr "به ‌روز رسانی نشان"
+
+#: app/classes/admin.php:547
+msgid "No Badges found!"
+msgstr "هیچ نشانی پیدا نشد!"
+
+#: app/classes/admin.php:548
+msgid "No Badges found in the trash!"
+msgstr "هیچ نشانی در زباله دان پیدا نشد!"
+
+#: app/classes/admin.php:553
+msgid "Badges for avans plugin"
+msgstr "نشان های افزونه آوانس"
+
+#: app/classes/admin.php:608
+msgid "Custom points for viewing this page"
+msgstr "امتیاز سفارشی برای مشاهده این برگه"
+
+#: app/classes/admin.php:616
+msgid "Award settings"
+msgstr "تنظیمات جایزه"
+
+#: app/classes/admin.php:624
+msgid "Lucky Wheel settings"
+msgstr "تنظیمات گردونه شانس"
+
+#: app/classes/admin.php:632
+msgid "Lottery settings"
+msgstr "تنظیمات قرعه کشی"
+
+#: app/classes/admin.php:640
+msgid "Voucher code settings"
+msgstr "تنظیمات کد ووچر"
+
+#: app/classes/admin.php:648
+msgid "Voucher code maker"
+msgstr "سازنده کد ووچر"
+
+#: app/classes/admin.php:656
+msgid "Voucher code form shortcode"
+msgstr "کد کوتاه فرم کد ووچر"
+
+#: app/classes/admin.php:664
+msgid "Report codes"
+msgstr "گزارش کدها"
+
+#: app/classes/admin.php:672
+msgid "Lottery registration form shortcode"
+msgstr "کدکوتاه فرم ثبت نام قرعه کشی"
+
+#: app/classes/admin.php:680
+msgid "Lucky Wheel shortcode"
+msgstr "کد کوتاه گردونه شانس"
+
+#: app/classes/admin.php:688
+msgid "Badge settings"
+msgstr "تنظیمات نشان"
+
+#: app/classes/admin.php:696
+msgid "Order referrer"
+msgstr "معرف سفارش"
+
+#: app/classes/admin.php:704
+msgid "Restrict the page to specific users"
+msgstr "محدود سازی صفحه برای برای کاربران خاص"
+
+#: app/classes/admin.php:713
+msgid "Poll scoring settings"
+msgstr "تنظیمات امتیازدهی نظرسنجی"
+
+#: app/classes/admin.php:749
+msgid ""
+"It is not possible to lock variable products. Please set the product type "
+"simple to restrict this page."
+msgstr ""
+"امکان قفل کردن محصولات متغیر وجود ندارد.لطفا برای محدود سازی این صفحه نوع "
+"محصول را ساده تنظیم کنید."
+
+#: app/classes/admin.php:957
+msgid "Badge title"
+msgstr "عنوان نشان"
+
+#: app/classes/admin.php:958
+msgid "Badge image"
+msgstr "تصویر نشان"
+
+#: app/classes/admin.php:959
+msgid "Number of steps to earn this badge"
+msgstr "تعداد مراحل کسب نشان"
+
+#: app/classes/admin.php:960 app/classes/admin.php:988
+#: app/classes/admin.php:1039 app/classes/admin.php:1063
+msgid "created at"
+msgstr "تاریخ ایجاد"
+
+#: app/classes/admin.php:984
+msgid "Lottery title"
+msgstr "عنوان قرعه کشی"
+
+#: app/classes/admin.php:985
+#: templates/front/panel/content/sections/referer-commision-logs.php:23
+msgid "status"
+msgstr "وضعیت"
+
+#: app/classes/admin.php:986
+msgid "members"
+msgstr "اعضاء"
+
+#: app/classes/admin.php:987
+msgid "operations"
+msgstr "عملیات"
+
+#: app/classes/admin.php:996
+msgid "Convert points to award"
+msgstr "تبدیل امتیاز به جایزه"
+
+#: app/classes/admin.php:1012
+msgid "Registering"
+msgstr "در حال ثبت نام"
+
+#: app/classes/admin.php:1014
+msgid "Completed"
+msgstr "تکمیل شده"
+
+#: app/classes/admin.php:1021
+msgid "Do lottery"
+msgstr "انجام قرعه کشی"
+
+#: app/classes/admin.php:1023
+msgid "lottery report"
+msgstr "گزارش قرعه کشی"
+
+#: app/classes/admin.php:1036
+msgid "Lucky Wheel title"
+msgstr "عنوان گردونه شانس"
+
+#: app/classes/admin.php:1037
+msgid "Points required for each spin"
+msgstr "امتیاز لازم برای هر چرخش"
+
+#: app/classes/admin.php:1038
+msgid "Number of award"
+msgstr "تعداد جایزه"
+
+#: app/classes/admin.php:1060
+msgid "Award title"
+msgstr "عنوان جایزه"
+
+#: app/classes/admin.php:1061
+msgid "Points required to earn award"
+msgstr "امتیاز لازم برای کسب جایزه"
+
+#: app/classes/admin.php:1062
+msgid "Award type"
+msgstr "نوع جایزه"
+
+#: app/classes/admin.php:1079
+msgid "Discount coupon"
+msgstr "کد تخفیف"
+
+#: app/classes/admin.php:1082
+msgid "Product"
+msgstr "محصول"
+
+#: app/classes/admin.php:1085
+msgid "File"
+msgstr "فایل"
+
+#: app/classes/admin.php:1088
+msgid "Custom content"
+msgstr "محتوای دلخواه"
+
+#: app/classes/admin.php:1103 app/classes/admin.php:1109
+#: app/classes/admin.php:1117 app/classes/admin.php:1133
+msgid "Form Score Settings"
+msgstr "تنظیمات امتیاز فرم"
+
+#: app/classes/admin.php:1105
+msgid "Form completion point"
+msgstr "امتیاز تکمیل فرم"
+
+#: app/classes/admin.php:1111 app/classes/render.php:52
+msgid "Notification message text"
+msgstr "متن پیام اعلان"
+
+#: app/classes/admin.php:1112 app/classes/render.php:54
+msgid "Congrats, you got {score} points"
+msgstr "هورااا!، شما {score} امتیاز کسب کردی"
+
+#: app/classes/admin.php:1113 app/classes/render.php:55
+msgid "You can use the shortcode {score} to display the score"
+msgstr "برای نمایش میزان امتیاز می توانید از کد کوتاه {score} استفاده کنید"
+
+#: app/classes/admin.php:1119
+msgid "Scoring status"
+msgstr "وضعیت امتیازدهی"
+
+#: app/classes/admin.php:1123
+msgid "After submitting the form"
+msgstr "بعد از ارسال فرم"
+
+#: app/classes/admin.php:1127
+msgid "After admin approval"
+msgstr "بعد از تایید مدیر"
+
+#: app/classes/admin.php:1135
+msgid "Re-score"
+msgstr "امتیازدهی مجدد"
+
+#: app/classes/admin.php:1139
+msgid "active"
+msgstr "فعال"
+
+#: app/classes/admin.php:1141
+msgid "Users who have already filled out this form can re-score!"
+msgstr "کاربرانی که قبلا این فرم را پر کرده اند می توانند مجدد امتیاز بگیرند"
+
+#: app/classes/avans.php:140
+msgid "Avans Gamification Plugin"
+msgstr "افزونه گیمیفیکیشن آوانس"
+
+#: app/classes/avans.php:166
+msgid "My Points"
+msgstr "امتیازات من"
+
+#: app/classes/data.php:58 app/classes/data.php:1084
+msgid "Register"
+msgstr "ثبت نام"
+
+#: app/classes/data.php:59
+msgid "View post page"
+msgstr "مشاهده نوشته"
+
+#: app/classes/data.php:60
+msgid "View product page"
+msgstr "مشاهده محصول"
+
+#: app/classes/data.php:61
+msgid "View course page"
+msgstr "مشاهده دوره"
+
+#: app/classes/data.php:62
+msgid "View page"
+msgstr "مشاهده برگه"
+
+#: app/classes/data.php:63
+msgid "Watch a video"
+msgstr "مشاهده ویدئو"
+
+#: app/classes/data.php:64
+msgid "Listen to the podcast"
+msgstr "گوش دادن به پادکست"
+
+#: app/classes/data.php:65
+msgid "Daily visits"
+msgstr "بازدید روزانه"
+
+#: app/classes/data.php:66
+msgid "purchase"
+msgstr "خرید"
+
+#: app/classes/data.php:67
+msgid "comment"
+msgstr "نوشتن دیدگاه"
+
+#: app/classes/data.php:68
+msgid "purchased product comment"
+msgstr "نوشتن دیدگاه محصول"
+
+#: app/classes/data.php:69
+msgid "Publish post"
+msgstr "انتشار مطلب"
+
+#: app/classes/data.php:70
+msgid "Link Sharing"
+msgstr "اشتراک گذاری"
+
+#: app/classes/data.php:71 app/classes/data.php:1105
+msgid "birthday"
+msgstr "سالگرد تولد"
+
+#: app/classes/data.php:73
+msgid "Spend points to spin the wheel"
+msgstr "خرج امتیاز بابت گردوندن گردونه شانس"
+
+#: app/classes/data.php:74
+msgid "Points earned from the wheel"
+msgstr "کسب امتیاز از گردونه شانس"
+
+#: app/classes/data.php:75
+msgid "Earn an award"
+msgstr "دریافت جایزه"
+
+#: app/classes/data.php:76 app/classes/data.php:77
+msgid "Join a new user with a referral code"
+msgstr "پیوستن کاربر جدید با کد معرفی"
+
+#: app/classes/data.php:78
+msgid "Complete a form"
+msgstr "تکمیل فرم"
+
+#: app/classes/data.php:79
+#: templates/front/panel/content/sections/settings.php:73
+msgid "Convert points to wallet credits"
+msgstr "تبدیل امتیاز به اعتبار کیف پول"
+
+#: app/classes/data.php:80
+msgid "marketing"
+msgstr "بازاریابی"
+
+#: app/classes/data.php:81
+msgid "admin points"
+msgstr "امتیاز مدیریت"
+
+#: app/classes/data.php:82
+msgid "Enroll in a course"
+msgstr "ثبت نام در دوره"
+
+#: app/classes/data.php:83
+msgid "Complete a course"
+msgstr "تکمیل دوره"
+
+#: app/classes/data.php:84
+msgid "Complete a lesson"
+msgstr "تکمیل درس"
+
+#: app/classes/data.php:85
+msgid "Passing a test"
+msgstr "قبولی در آزمون"
+
+#: app/classes/data.php:86
+msgid "Participate in polls"
+msgstr "شرکت در نظر سنجی"
+
+#: app/classes/data.php:884 app/classes/data.php:1161 app/classes/render.php:71
+#: app/classes/render.php:90 templates/generals/popup-date-picker.php:11
+msgid "day"
+msgstr "روز"
+
+#: app/classes/data.php:887 app/classes/data.php:1164 app/classes/render.php:72
+#: app/classes/render.php:91
+msgid "week"
+msgstr "هفته"
+
+#: app/classes/data.php:890 app/classes/data.php:1167 app/classes/render.php:73
+#: app/classes/render.php:92 templates/generals/popup-date-picker.php:20
+msgid "month"
+msgstr "ماه"
+
+#: app/classes/data.php:893 app/classes/data.php:1170 app/classes/render.php:74
+#: app/classes/render.php:93 templates/generals/popup-date-picker.php:39
+msgid "year"
+msgstr "سال"
+
+#: app/classes/data.php:896
+#, php-format
+msgid "once"
+msgid_plural "%s times"
+msgstr[0] "یکبار"
+msgstr[1] "%s بار"
+
+#: app/classes/data.php:897
+#, php-format
+msgid "You can not convert %s into the wallet credit more than %s in %s."
+msgstr ""
+"شما نمی توانید  %s را به اعتبار کیف پول تبدیل کنید بیشتر از %s بار در %s."
+
+#: app/classes/data.php:898
+msgid ""
+"You have used the maximum number of conversions. You must try another day to "
+"convert again."
+msgstr ""
+"شما از حداکثر دفعات تبدیل استفاده کرده اید.برای تبدیل مجدد باید روز دیگری "
+"مراجعه کنید."
+
+#: app/classes/data.php:1040
+#, php-format
+msgid "View post page %s"
+msgstr "مشاهده مطلب %s"
+
+#: app/classes/data.php:1043
+#, php-format
+msgid "View course page %s"
+msgstr "مشاهده دوره %s"
+
+#: app/classes/data.php:1046
+#, php-format
+msgid "View product page %s"
+msgstr "مشاهده محصول %s"
+
+#: app/classes/data.php:1049
+#, php-format
+msgid "View page %s"
+msgstr "مشاهده صفحه %s"
+
+#: app/classes/data.php:1052
+#, php-format
+msgid "Completing the course %s"
+msgstr "تکمیل دوره %s"
+
+#: app/classes/data.php:1055
+#, php-format
+msgid "Enrolling in the course %s"
+msgstr "ثبت نام در دوره %s"
+
+#: app/classes/data.php:1058
+#, php-format
+msgid "Completing lesson %s in the course of %s"
+msgstr "تکمیل درس %s در دوره %s"
+
+#: app/classes/data.php:1061
+#, php-format
+msgid "Passing the %s exam in the %s course"
+msgstr "قبولی در آزمون %s در دوره %s"
+
+#: app/classes/data.php:1064
+#, php-format
+msgid "Purchase from the website with order number %d"
+msgstr "خرید از سایت با شماره سفارش %d"
+
+#: app/classes/data.php:1067
+#, php-format
+msgid "***Cancel purchase points with order number %d"
+msgstr "امتیاز لغو سفارش با شماره سفارش %d"
+
+#: app/classes/data.php:1071
+msgid "Daily visit"
+msgstr "بازدید روزانه"
+
+#: app/classes/data.php:1074
+#, php-format
+msgid "Watch the video %s on the %s page"
+msgstr "مشاهده ویدئو %s در صفحه %s"
+
+#: app/classes/data.php:1075
+#, php-format
+msgid "Watch the video with ID %s on the %s page"
+msgstr "مشاهده ویدئو با شناسه %s در صفحه %s"
+
+#: app/classes/data.php:1078
+#, php-format
+msgid "Listen to the podcast with ID %s on the %s page"
+msgstr "گوش دادن به پادکست به شناسه %s در صفحه %s"
+
+#: app/classes/data.php:1081
+#, php-format
+msgid "Convert %s to wallet credit"
+msgstr "تبدیل %s به اعتبار کیف پول"
+
+#: app/classes/data.php:1087
+#, php-format
+msgid "publish post %s"
+msgstr "انتشار مطلب %s"
+
+#: app/classes/data.php:1090
+#, php-format
+msgid "publish product %s"
+msgstr "انتشار محصول %s"
+
+#: app/classes/data.php:1093
+#, php-format
+msgid "Post a comment on %s"
+msgstr "قرار دادن دیدگاه در %s"
+
+#: app/classes/data.php:1096
+#, php-format
+msgid "Post a comment on Product page %s"
+msgstr "قرار دادن دیدگاه محصول در %s"
+
+#: app/classes/data.php:1099
+#, php-format
+msgid "Participate in polls %s"
+msgstr "شرکت در نظرسنجی %s"
+
+#: app/classes/data.php:1102
+#, php-format
+msgid "sharing %s Page"
+msgstr "اشتراک گذاری صفحه %s"
+
+#: app/classes/data.php:1108
+msgid "Membership anniversary"
+msgstr "سالگرد عضویت"
+
+#: app/classes/data.php:1111
+#, php-format
+msgid "%s donation by admin %s"
+msgstr "اهدا %s %s مدیریت"
+
+#: app/classes/data.php:1114
+#, php-format
+msgid "Convert %s to award %s"
+msgstr "تبدیل %s به جایزه %s"
+
+#: app/classes/data.php:1117
+#, php-format
+msgid "spin the lucky wheel %s"
+msgstr "گردوندن گردونه شانس %s"
+
+#: app/classes/data.php:1120
+#, php-format
+msgid "%s Gift from the lucky wheel of %s"
+msgstr "%s هدیه از گردونه شانس %s"
+
+#: app/classes/data.php:1123
+#, php-format
+msgid "Convert %s to lottery tickets %s"
+msgstr "تبدیل %s به شانس قرعه کشی %s"
+
+#: app/classes/data.php:1126
+#, php-format
+msgid "Star rating to post %s"
+msgstr "امتیاز ستاره ای به %s"
+
+#: app/classes/data.php:1129
+#, php-format
+msgid "Apply marketing commission for order %d"
+msgstr "پورسانت بازاریابی برای سفارش %d"
+
+#: app/classes/data.php:1132
+#, php-format
+msgid "Complete the %s form with ID %s"
+msgstr "تکمیل فرم %s با شناسه %s"
+
+#: app/classes/data.php:1135 app/classes/front.php:57
+msgid "Complete user profile"
+msgstr "تکمیل پروفایل کاربری"
+
+#: app/classes/data.php:1138
+#, php-format
+msgid "Import old %s"
+msgstr "درون ریزی امتیازات قدیمی %s"
+
+#: app/classes/data.php:1141
+#, php-format
+msgid "Earn %s for entering code in %s form"
+msgstr "کسب %s برای ورود کد در فرم  %s"
+
+#: app/classes/data.php:1146
+#, php-format
+msgid "Referred user registration (%s)"
+msgstr "ثبت نام کاربر معرفی شده (%s)"
+
+#: app/classes/data.php:1148
+msgid "Referred user registration"
+msgstr "ثبت نام کاربر معرفی شده"
+
+#: app/classes/data.php:1158
+msgid "hour"
+msgstr "ساعت"
+
+#: app/classes/data.php:1241
+msgid "discount code"
+msgstr "کد تخفیف"
+
+#: app/classes/data.php:1247
+msgid "product"
+msgstr "محصول"
+
+#: app/classes/data.php:1253
+msgid "file"
+msgstr "فایل دانلودی"
+
+#: app/classes/data.php:1259
+msgid "Empty"
+msgstr "پوچ"
+
+#: app/classes/data.php:1310
+msgid "Get it now"
+msgstr "همین الان دریافت کنید"
+
+#: app/classes/data.php:1312
+#, php-format
+msgid "You need %d more %s"
+msgstr "شما به %d %s بیشتر نیاز دارید"
+
+#: app/classes/front.php:48
+msgid "Game lucky wheel"
+msgstr "بازی گردونه شانس"
+
+#: app/classes/front.php:71
+#: templates/front/panel/content/sections/gift-geted-single.php:37
+msgid "You do not have permission to view this page!"
+msgstr "شما دسترسی لازم برای مشاهده این صفحه را ندارید!"
+
+#: app/classes/front.php:72
+msgid "To view this page, you must have the following conditions."
+msgstr "برای مشاهده این صفحه باید شرایط زیر را داشته باشید."
+
+#: app/classes/front.php:79
+msgid "At least"
+msgstr "حداقل"
+
+#: app/classes/front.php:90
+msgid "Minimum user level"
+msgstr "حداقل سطح کاربری"
+
+#: app/classes/front.php:100
+msgid "Authorized user roles"
+msgstr "نقش های کاربری معتبر"
+
+#: app/classes/front.php:110
+msgid "Required badges"
+msgstr "نشان های لازم"
+
+#: app/classes/front.php:242
+msgid "You get"
+msgstr "شما با خرید این محصول"
+
+#: app/classes/front.php:243
+msgid "by buying this product"
+msgstr "دریافت می کنید"
+
+#: app/classes/front.php:280
+#, php-format
+msgid "The %s you earn after completing this order"
+msgstr "%s  دریافتی شما با تکمیل این سفارش"
+
+#: app/classes/front.php:305
+msgid "Referer code"
+msgstr "کد معرف"
+
+#: app/classes/func.php:118
+msgid "s"
+msgstr ""
+
+#: app/classes/func.php:123
+msgid "Points"
+msgstr "امتیاز"
+
+#: app/classes/func.php:125
+msgid "Point"
+msgstr "امتیاز"
+
+#: app/classes/render.php:13
+msgid "Active/Inactive"
+msgstr "فعال/غیرفعال"
+
+#: app/classes/render.php:28
+msgid "e.g 2 points"
+msgstr "مثلا 2 امتیاز"
+
+#: app/classes/render.php:38
+msgid "Delay in scoring"
+msgstr "تاخیر در امتیازدهی"
+
+#: app/classes/render.php:41
+msgid "per second"
+msgstr "بر حسب ثانیه"
+
+#: app/classes/render.php:42
+msgid ""
+"Description: With this feature you can encourage users to stay longer on the "
+"page and help improve SEO (reduce bounce rate)"
+msgstr ""
+"توضیحات : با این امکان شما کاربران را تشویق می کنید که مدت زمان بیشتری در "
+"صفحه بمانند و با این کاربر به بهبود سئو سایت کمک کنند(با کاهش نرخ خروج)"
+
+#: app/classes/render.php:66
+msgid "Maximum scoring"
+msgstr "محدودیت امتیازگیری"
+
+#: app/classes/render.php:69
+#, php-format
+msgid "%s per"
+msgstr "%s  در"
+
+#: app/classes/render.php:86
+msgid "Expiry of points"
+msgstr "انقضا امتیاز"
+
+#: app/classes/render.php:95
+msgid "After earning points"
+msgstr "بعد از کسب امتیاز"
+
+#: app/classes/render.php:105
+msgid "conditions"
+msgstr "منطق شرطی"
+
+#: app/classes/security.php:96 app/classes/security.php:97
+#: app/classes/security.php:118 app/classes/security.php:140
+#: app/classes/security.php:157
+msgid "Register version"
+msgstr "فعال سازی آوانس"
+
+#: app/classes/security.php:120
+msgid ""
+"You already register your license key. to re validate it, you can use this "
+"form."
+msgstr ""
+"در حال حاضر شما کلید لایسنس شما اعتبار سنجی شده است ؛ برای اعتبار سنجی مجدد "
+"می توانید از این فرم استفاده کنید."
+
+#: app/classes/security.php:122
+msgid "Your current license:"
+msgstr "لایسنس فعلی شما:"
+
+#: app/classes/security.php:134
+msgid "Revalidate"
+msgstr "اعتبار سنجی مجدد"
+
+#: app/classes/security.php:135
+msgid "Delete and submit another license"
+msgstr "حذف و وارد کردن کد لایسنس دیگر"
+
+#: app/classes/security.php:139
+msgid "New license key"
+msgstr "کلید لایسنس  جدید"
+
+#: app/classes/security.php:142 app/classes/security.php:148
+#: app/classes/security.php:159
+msgid "Please wait..."
+msgstr "لطفا منتظر بمانید..."
+
+#: app/classes/security.php:154
+msgid "Please activate plugin with your license key to all features work."
+msgstr ""
+"لطفا با کلید لایسنس افزونه را فعال کنید تا همه ی امکانات افزونه برایتان کار "
+"کند."
+
+#: app/classes/security.php:156
+msgid "License key"
+msgstr "کلید لایسنس"
+
+#: app/classes/security.php:188 app/classes/security.php:220
+msgid "Something goes wrong please try again."
+msgstr "برخی چیزها اشتباه اند ، لطفا مجددا تلاش کنید."
+
+#: app/classes/security.php:249 app/classes/security.php:318
+msgid "Please insert your license code"
+msgstr "لطفا کد لایسنس خود را وارد نمایید"
+
+#: app/classes/security.php:265
+msgid "License code is valid."
+msgstr "کد لایسنس معتبر است."
+
+#: app/classes/security.php:269 app/classes/security.php:332
+msgid "Thanks! Your license activated successfully."
+msgstr "با تشکر ؛ افزونه با موفقیت فعال شد."
+
+#: app/classes/security.php:296
+#, php-format
+msgid "To activating your %s please insert you license key"
+msgstr "برای فعال سازی %s لطفا کلید لایسنس خود را وارد نمایید"
+
+#: app/classes/security.php:297
+msgid "Register Now"
+msgstr "فعال سازی افزونه"
+
+#: app/classes/security.php:303
+#, php-format
+msgid "There is something wrong with your %s license. please check it."
+msgstr ""
+
+#: app/classes/security.php:304
+msgid "Check Now"
+msgstr "هم حالا برسی کن"
+
+#: app/classes/user.php:379
+#, php-format
+msgid "Converting %s to wallet credit is disabled."
+msgstr "سیستم تبدیل %s به اعتبار کیف پول غیرفعال است."
+
+#: app/classes/user.php:385
+#, php-format
+msgid "You do not have enough %s for this operation!"
+msgstr "شما %s کافی برای برای این عملیات را ندارید!"
+
+#: app/classes/user.php:391
+msgid "You do not have sufficient permissions to convert"
+msgstr "شما دسترسی لازم برای تبدیل امتیاز را ندارید"
+
+#: app/classes/user.php:398 templates/shortcodes/avans-convert-wallet.php:53
+#, php-format
+msgid "Convert %s to wallet credits"
+msgstr "تبدیل %s به اعتبار کیف پول"
+
+#: app/classes/user.php:403
+msgid "The conversion operation was successful"
+msgstr "عملیات تبدیل با موفقیت انجام شد"
+
+#: app/classes/user.php:410
+#, php-format
+msgid "An error occurred while converting %s to wallet credit!"
+msgstr "در هنگام تبدیل %s به اعتبار کیف پول خطایی بوجود آمد!"
+
+#: app/classes/user.php:445 app/classes/user.php:466
+msgid "Error receiving award"
+msgstr "خطا در دریافت جایزه"
+
+#: app/classes/user.php:474
+#, php-format
+msgid "Your %s are not enough to use the wheel of fortune!"
+msgstr "شما %s کافی برای استفاده از گردونه شانس را ندارید!"
+
+#: app/classes/user.php:505
+msgid "Registration for this lottery is over!"
+msgstr "مهلت ثبت نام در این قرعه کشی به پایان رسیده است!"
+
+#: app/classes/user.php:521
+msgid "Lottery registration was successful."
+msgstr "ثبت نام در قرعه کشی با موفقیت انجام شد."
+
+#: app/classes/user.php:528
+msgid "You do not have the necessary conditions to get a lottery ticket."
+msgstr "شما شرایط لازم برای دریافت بلیط قرعه کشی را ندارید."
+
+#: app/classes/user.php:530
+#, php-format
+msgid "You do not have enough %s to get a lottery ticket!"
+msgstr "شما %s کافی برای دریافت بلیط قرعه کشی را ندارید!"
+
+#: app/classes/user.php:533
+msgid "You can not get more than the maximum bookable ticket!"
+msgstr "شما نمی توانید از حداکثر بلیط قابل رزرو  ، بلیط تهیه کنید!"
+
+#: includes/front/ajax.php:431 includes/front/ajax.php:443
+#, php-format
+msgid "امتیاز %s از %s رای"
+msgstr ""
+
+#: templates/admin/integrations/gravity-form/details-entry.php:17
+#, php-format
+msgid "%s was earned %s %s for completing this form!"
+msgstr "%s  برای تکمیل این فرم %s %s کسب کرد!"
+
+#: templates/admin/integrations/gravity-form/details-entry.php:45
+msgid "Donate points for completing this form"
+msgstr "اهدا امتیاز برای تکمیل این فرم"
+
+#: templates/admin/integrations/gravity-form/form-settings.php:3
+#: templates/admin/integrations/gravity-form/form-settings.php:10
+#: templates/admin/integrations/gravity-form/form-settings.php:18
+#: templates/admin/integrations/gravity-form/form-settings.php:34
+msgid "تنظیمات امتیاز فرم"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:4
+#, php-format
+msgid "حجم خرید محصولات به بالای N %s برسد"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:5
+msgid "محصول A خریداری شود"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:6
+#, php-format
+msgid "مجموع مبلغ سفارش به بالای N %s برسد"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:7
+msgid "تعداد محصولات خریداری شده به بالای N محصول برسد"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:8
+msgid "ارسال دیدگاه مشتری در صفحه محصول A"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:14
+msgid "پرکردن فرم A"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:15
+msgid "پرکردن N بار فرم A"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:20
+msgid "اشتراک گذاری مطلب A با N  نفر"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:21
+msgid "ارسال دیدگاه در نوشته A"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:22
+msgid "تعداد دیدگاه ارسال شده به بالای N دیدگاه برسد"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:23
+msgid "قرار دادن N پست"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:24
+msgid "مشاهده N مطلب در پست تایپ B"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:29
+msgid "مشاهده N ویدئو"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:31
+msgid "مشاهده ویدئو A در صفحه B"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:35
+msgid "پادکست N مشاهده"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:37
+msgid "مشاهده پادکست A در صفحه B"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:41
+msgid "معرفی (ثبت نام) N کاربر"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:45
+msgid "دریافت نشان A"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:46
+msgid "رسیدن به امتیاز A"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:50
+msgid "ثبت نام در دوره A"
+msgstr ""
+
+#: templates/admin/parts/action-list-badge-select.php:51
+msgid "تکمیل کردن دوره A"
+msgstr ""
+
+#: templates/admin/settings/index/parts/shortcodes/sections/shortcodes.php:79
+#, php-format
+msgid "با دیگران به اشتراک بگذارید تا %s بگیرید!"
+msgstr ""
+
+#: templates/admin/settings/users/parts/main/pagination.php:7
+#: templates/generals/pagination.php:8
+msgid "&laquo;"
+msgstr ""
+
+#: templates/admin/settings/users/parts/main/pagination.php:8
+#: templates/generals/pagination.php:9
+msgid "&raquo;"
+msgstr ""
+
+#: templates/front/panel/content/sections/badge-details.php:18
+msgid "Earned"
+msgstr "کسب شده"
+
+#: templates/front/panel/content/sections/badge-details.php:24
+msgid "missions"
+msgstr "ماموریت ها"
+
+#: templates/front/panel/content/sections/gift-geted-single.php:18
+#, php-format
+msgid "Received on %s"
+msgstr "دریافت شده در %s"
+
+#: templates/front/panel/content/sections/gift-results/coupon.php:10
+#, php-format
+msgid "You can use this code until %s"
+msgstr "شما تا تاریخ %s می توانید از این کد استفاده کنید"
+
+#: templates/front/panel/content/sections/gift-results/coupon.php:13
+msgid "Discount amount"
+msgstr "میزان تخفیف"
+
+#: templates/front/panel/content/sections/gift-results/coupon.php:14
+msgid "percent"
+msgstr "درصد"
+
+#: templates/front/panel/content/sections/gift-results/coupon.php:21
+msgid "For products"
+msgstr "ویژه محصولات"
+
+#: templates/front/panel/content/sections/gift-results/coupon.php:33
+msgid "For categories"
+msgstr "ویژه دسته بندی های"
+
+#: templates/front/panel/content/sections/gift-results/file.php:5
+msgid "Download"
+msgstr "دانلود"
+
+#: templates/front/panel/content/sections/gift-results/product.php:7
+#, php-format
+msgid "Order %s was successfully created."
+msgstr "سفارش %s با موفقیت ایجاد شد."
+
+#: templates/front/panel/content/sections/gift-results/product.php:8
+msgid "Order items"
+msgstr "موارد سفارش"
+
+#: templates/front/panel/content/sections/gift-results/score.php:3
+#, php-format
+msgid "%s were added to your total %s"
+msgstr "%s به مجموع %s شما اضافه شد."
+
+#: templates/front/panel/content/sections/gift-results/score.php:10
+#, php-format
+msgid "You can use this points until %s"
+msgstr "شما تا %s می توانید از این امتیازات استفاده کنید"
+
+#: templates/front/panel/content/sections/gift-single.php:31
+msgid "Get award"
+msgstr "دریافت جایزه"
+
+#: templates/front/panel/content/sections/gift-tabs/getted-gift.php:5
+#: templates/front/panel/content/sections/referer-commision-logs.php:20
+msgid "Order number"
+msgstr "شماره سفارش"
+
+#: templates/front/panel/content/sections/gift-tabs/getted-gift.php:6
+msgid "Title"
+msgstr "عنوان"
+
+#: templates/front/panel/content/sections/gift-tabs/getted-gift.php:7
+msgid "Date"
+msgstr "تاریخ"
+
+#: templates/front/panel/content/sections/gifts-header.php:2
+#: templates/front/panel/content/sections/settings.php:36
+msgid "awards"
+msgstr "جوایز و هدایا"
+
+#: templates/front/panel/content/sections/gifts-header.php:3
+msgid "Received awards"
+msgstr "جوایز دریافت شده"
+
+#: templates/front/panel/content/sections/referer-commision-logs.php:21
+msgid "Order amount"
+msgstr "شماره سفارش"
+
+#: templates/front/panel/content/sections/referer-commision-logs.php:22
+msgid "Your commission"
+msgstr "پورسانت شما"
+
+#: templates/front/panel/content/sections/referer-commision-logs.php:24
+msgid "date"
+msgstr "تاریخ"
+
+#: templates/front/panel/content/sections/referer-commision-logs.php:37
+msgid "approved"
+msgstr "تایید شده"
+
+#: templates/front/panel/content/sections/referer-commision-logs.php:37
+msgid "Pending"
+msgstr "در حال بررسی"
+
+#: templates/front/panel/content/sections/referer-users-logs.php:29
+msgid "User information"
+msgstr "اطلاعات کاربری"
+
+#: templates/front/panel/content/sections/referer-users-logs.php:30
+msgid "registery date"
+msgstr "تاریخ ثبت نام"
+
+#: templates/front/panel/content/sections/reports-header.php:9
+msgid "Activity"
+msgstr "فعالیت"
+
+#: templates/front/panel/content/sections/reports-header.php:15
+msgid "the start date of the report"
+msgstr "تاریخ شروع گزارش"
+
+#: templates/front/panel/content/sections/reports-header.php:20
+msgid "the end date of the report"
+msgstr "تاریخ پایان گزارش"
+
+#: templates/front/panel/content/sections/reports-header.php:25
+msgid "Filter"
+msgstr "فیلتر"
+
+#: templates/front/panel/content/sections/reports-main.php:3
+msgid "title"
+msgstr "عنوان"
+
+#: templates/front/panel/content/sections/reports-main.php:5
+#, php-format
+msgid "Time to earn %s"
+msgstr "زمان کسب %s"
+
+#: templates/front/panel/content/sections/settings.php:18
+msgid "My medals"
+msgstr "مدال های من"
+
+#: templates/front/panel/content/sections/settings.php:24
+msgid "Click on the medal to see the process of winning the medal"
+msgstr "با کلیک روی هر مدال می تونید روند کسب آن مدال را ببینید"
+
+#: templates/front/panel/content/sections/settings.php:43
+msgid ""
+"Here you can get a discount code, file or product by spending your points."
+msgstr ""
+"در اینجا می توانید با خرج امتیازاتتان ، کد تخفیف ، فایل یا محصولی که مایل "
+"هستید را دریافت کنید."
+
+#: templates/front/panel/content/sections/settings.php:55
+msgid "Score History"
+msgstr "گزارشات امتیاز"
+
+#: templates/front/panel/content/sections/settings.php:61
+msgid "Here you can see the history of earning and spending your points"
+msgstr "در اینجا شما می توانید تاریخچه کسب و خرج امتیازاتتان را ببینید"
+
+#: templates/front/panel/content/sections/settings.php:79
+msgid ""
+"Here you can convert your points into wallet credits and buy from the site "
+"with your credit."
+msgstr ""
+"در اینجا شما می توانید امتیازاتتان را به اعتبار کیف پول تبدیل کنید و با "
+"استفاده از آن از سایت خرید کنید."
+
+#: templates/front/panel/content/sections/settings.php:91
+msgid "Earn money and marketing"
+msgstr "بازاریابی و کسب درآمد"
+
+#: templates/front/panel/content/sections/settings.php:97
+msgid "Earn money by marketing our products"
+msgstr "با بازاریابی و معرفی محصولات ما کسب درآمد کنید"
+
+#: templates/front/panel/content/sections/settings.php:110
+msgid "How do I get points ?!"
+msgstr "چگونه امتیاز کسب کنم؟!"
+
+#: templates/front/panel/content/sections/settings.php:129
+msgid ""
+"The end of each season, in DigiClub; We have a lottery for valuable prizes "
+"that you can get a chance ticket to participate in the lottery with every 10 "
+"points."
+msgstr ""
+"انتهای هر فصل در دیجی کلاب، برای جوایز ارزشمند قرعه کشی داریم که برای دریافت "
+"هر شانس شرکت در قرعه کشی 10 امتیاز نیاز دارید."
+
+#: templates/front/panel/content/sections/settings.php:142
+msgid "DigiClub Missions"
+msgstr "ماموریت های دیجی کلابی"
+
+#: templates/front/panel/content/sections/settings.php:148
+msgid "Complete DigiClub missions and exciting games and earn points."
+msgstr "ماموریت ها و بازی ها دیجی کلابی را انجام بدید و امتیاز کسب کنید."
+
+#: templates/front/panel/header/header.php:30
+msgid "My Scores"
+msgstr "امتیاز های من"
+
+#: templates/front/panel/header/header.php:35
+msgid "Return to"
+msgstr "بازگشت به"
+
+#: templates/generals/actions-list-select.php:2
+msgid "View all activities"
+msgstr "مشاهده همه فعالیت ها"
+
+#: templates/generals/pagination.php:4
+#, php-format
+msgid "%s From %s pages"
+msgstr "%s از %s صفحه"
+
+#: templates/generals/popup-date-picker.php:5
+msgid "Select a date"
+msgstr "انتخاب تاریخ"
+
+#: templates/generals/popup-date-picker.php:22
+msgid "Farvardin"
+msgstr "فروردین"
+
+#: templates/generals/popup-date-picker.php:23
+msgid "Ordibehesht"
+msgstr "اردیبهشت"
+
+#: templates/generals/popup-date-picker.php:24
+msgid "Khordad"
+msgstr "خرداد"
+
+#: templates/generals/popup-date-picker.php:25
+msgid "Tir"
+msgstr "تیر"
+
+#: templates/generals/popup-date-picker.php:26
+msgid "Mordad"
+msgstr "مرداد"
+
+#: templates/generals/popup-date-picker.php:27
+msgid "Shahrivar"
+msgstr "شهریور"
+
+#: templates/generals/popup-date-picker.php:28
+msgid "Mehr"
+msgstr "مهر"
+
+#: templates/generals/popup-date-picker.php:29
+msgid "Aban"
+msgstr "آبان"
+
+#: templates/generals/popup-date-picker.php:30
+msgid "Azar"
+msgstr "آذر"
+
+#: templates/generals/popup-date-picker.php:31
+msgid "Day"
+msgstr "دی"
+
+#: templates/generals/popup-date-picker.php:32
+msgid "Bahman"
+msgstr "بهمن"
+
+#: templates/generals/popup-date-picker.php:33
+msgid "Esfand"
+msgstr "اسفند"
+
+#: templates/generals/popup-date-picker.php:48
+msgid "select"
+msgstr "اتتخاب"
+
+#: templates/generals/shiping-form.php:28
+msgid "Award recipient information"
+msgstr "اطلاعات دریافت کننده جایزه"
+
+#: templates/generals/shiping-form.php:29
+msgid "Edit"
+msgstr "ویرایش"
+
+#: templates/generals/shiping-form.php:33
+msgid "first name"
+msgstr "نام"
+
+#: templates/generals/shiping-form.php:34
+#: templates/generals/shiping-form.php:63
+#: templates/shortcodes/avans-complete-user-info.php:37
+msgid "Last name"
+msgstr "نام خانوادگی"
+
+#: templates/generals/shiping-form.php:35
+#: templates/generals/shiping-form.php:72
+msgid "State"
+msgstr "استان"
+
+#: templates/generals/shiping-form.php:36
+#: templates/generals/shiping-form.php:113
+msgid "City"
+msgstr "شهر"
+
+#: templates/generals/shiping-form.php:37
+#: templates/generals/shiping-form.php:122
+msgid "Address"
+msgstr "آدرس"
+
+#: templates/generals/shiping-form.php:38
+#: templates/generals/shiping-form.php:131
+#: templates/generals/shiping-form.php:136
+msgid "Postal code"
+msgstr "کد پستی"
+
+#: templates/generals/shiping-form.php:39
+msgid "phone number"
+msgstr "شماره موبایل"
+
+#: templates/generals/shiping-form.php:46
+msgid ""
+"To receive the award, you need to enter your postal information in the form "
+"below and click on the postal information registration button"
+msgstr "برای دریافت جایزه ، باید اطلاعات پستی خود را در فرم زیر وارد نمایید."
+
+#: templates/generals/shiping-form.php:49
+msgid "Edit award recipient information"
+msgstr "ویرایش اطلاعات دریافت کننده جایزه"
+
+#: templates/generals/shiping-form.php:50
+msgid "Cancel edit"
+msgstr "لغو ویرایش"
+
+#: templates/generals/shiping-form.php:58
+#: templates/shortcodes/avans-complete-user-info.php:30
+msgid "First name"
+msgstr "نام"
+
+#: templates/generals/shiping-form.php:74
+msgid "Select a province"
+msgstr "انتخاب استان"
+
+#: templates/generals/shiping-form.php:143
+msgid "save information"
+msgstr "ذخیره اطلاعات"
+
+#: templates/shortcodes/avans-awards.php:7
+msgid "You must be logged in to view prizes."
+msgstr "برای مشاهده جوایز باید ابتدا وارد شوید."
+
+#: templates/shortcodes/avans-complete-user-info.php:12
+#: templates/shortcodes/avans-user-panel.php:5
+msgid "You must be logged in to view this section"
+msgstr "برای مشاهده این بخش باید ابتدا وارد شوید"
+
+#: templates/shortcodes/avans-complete-user-info.php:23
+msgid "Complete user information"
+msgstr "تکمیل اطلاعات کاربری"
+
+#: templates/shortcodes/avans-complete-user-info.php:44
+msgid "Birthdate"
+msgstr "تاریخ تولد"
+
+#: templates/shortcodes/avans-complete-user-info.php:51
+msgid "Phone number"
+msgstr "شماره موبایل"
+
+#: templates/shortcodes/avans-complete-user-info.php:58
+msgid "Email"
+msgstr "ایمیل"
+
+#: templates/shortcodes/avans-complete-user-info.php:67
+msgid "Change image"
+msgstr "تغییر تصویر"
+
+#: templates/shortcodes/avans-complete-user-info.php:73
+msgid "Confirm user information"
+msgstr "تایید اطلاعات کاربری"
+
+#: templates/shortcodes/avans-complete-user-info.php:74
+msgid "Return to validation"
+msgstr "بازگشت به اعتبارسنجی"
+
+#: templates/shortcodes/avans-complete-user-info.php:81
+msgid "Email Verification Code"
+msgstr "کد اعتبارسنجی ایمیل"
+
+#: templates/shortcodes/avans-complete-user-info.php:82
+msgid ""
+"An email containing the verification code was sent to the email account you "
+"filled out on the information form. Please enter the verification code here."
+msgstr ""
+"یک ایمیل شامل کد اعتبارسنجی به آدرس ایمیلی که در فرم وارد کردید ارسال شد."
+
+#: templates/shortcodes/avans-complete-user-info.php:85
+#: templates/shortcodes/avans-complete-user-info.php:95
+msgid "confirm"
+msgstr "تایید"
+
+#: templates/shortcodes/avans-complete-user-info.php:86
+#: templates/shortcodes/avans-complete-user-info.php:96
+msgid "resend"
+msgstr "ارسال مجدد"
+
+#: templates/shortcodes/avans-complete-user-info.php:91
+msgid "Mobile number verification code"
+msgstr "کد اعتبارسنجی موبایل"
+
+#: templates/shortcodes/avans-complete-user-info.php:92
+msgid ""
+"An SMS containing the verification code was sent to the mobile number you "
+"filled in the information completion form. Please enter the verification "
+"code here."
+msgstr ""
+"یک پیامک شامل کد اعتبارسنجی به شماره موبایلی که در فرم وارد کردید ارسال شد."
+
+#: templates/shortcodes/avans-complete-user-info.php:100
+msgid "Return to profile editing"
+msgstr "بازگشت به ویرایش اطلاعات کاربری"
+
+#: templates/shortcodes/avans-convert-wallet.php:13
+#, php-format
+msgid ""
+"You must be logged in to view the form conversion of %s into wallet credit."
+msgstr "برای مشاهده فرم تبدیل %s به اعتبار کیف پول باید ابتدا وارد شوید."
+
+#: templates/shortcodes/avans-convert-wallet.php:25
+#, php-format
+msgid "You need at least %s more %s to convert %s into wallet credit"
+msgstr " حداقل به %s  %s بیشتر برای تبدیل %s به اعتبار کیف پول نیاز دارید"
+
+#: templates/shortcodes/avans-convert-wallet.php:35
+msgid "Equivalent"
+msgstr "معادل"
+
+#: templates/shortcodes/avans-logs-score.php:7
+#: templates/shortcodes/avans-referers.php:10
+msgid "You must be logged in to view this section."
+msgstr "برای مشاهده این بخش باید ابتدا وارد شوید."
+
+#: templates/shortcodes/avans-lottery.php:10
+msgid "You must be logged in to view the lottery registration form."
+msgstr "برای مشاهده فرم ثبت نام در قرعه کشی ابتدا باید وارد شوید."
+
+#: templates/shortcodes/avans-lottery.php:43
+#, php-format
+msgid "You need %d %s to receive each ticket!"
+msgstr "شما برای دریافت هر بلیط %d %s نیاز دارید!"
+
+#: templates/shortcodes/avans-lottery.php:47
+msgid "Maximum bookable ticket"
+msgstr "حداکثر بلیط قابل رزرو"
+
+#: templates/shortcodes/avans-lottery.php:51
+msgid "Your tickets"
+msgstr "بلیط های شما"
+
+#: templates/shortcodes/avans-lottery.php:70
+msgid "Get tickets"
+msgstr "دریافت بلیط"
+
+#: templates/shortcodes/avans-referers.php:19
+msgid "Referral code"
+msgstr "کد معرف"
+
+#: templates/shortcodes/avans-referers.php:24
+msgid "Referer link"
+msgstr "لینک معرف"
+
+#: templates/shortcodes/avans-referers.php:40
+msgid "Marketing commissions"
+msgstr "پورسانت های بازاریابی"
+
+#: templates/shortcodes/avans-referers.php:41
+msgid "Your invited users"
+msgstr "کاربران دعوت شده شما"
+
+#: templates/shortcodes/avans-referers.php:53
+msgid "Invited user"
+msgstr "کاربر دعوت شده"
+
+#: templates/shortcodes/avans-referers.php:55
+msgid "Invitation date"
+msgstr "تاریخ دعوت"
+
+#: templates/shortcodes/avans-share-link.php:6
+#, php-format
+msgid "Share with others to get %s!"
+msgstr "با دیگران اشتراک بگذارید تا %s بگیرید!"
+
+#: templates/shortcodes/avans-sound.php:35
+#, php-format
+msgid "You got %d %s for listening to this podcast"
+msgstr "شما برای گوش کردن به این پادکست %d %s  گرفتید"
+
+#: templates/shortcodes/avans-spin-wheel.php:9
+msgid "You must be logged in to view the chance wheel"
+msgstr "برای مشاهده گردونه شانس باید ابتدا وارد شوید"
+
+#: templates/shortcodes/avans-spin-wheel.php:32
+msgid "Turn the wheel"
+msgstr "گردونه را بچرخون"
+
+#: templates/shortcodes/avans-star-rating.php:12
+#, php-format
+msgid "Score %s out of %s votes"
+msgstr "امتیاز %s از %s رای"
+
+#: templates/shortcodes/avans-user-list.php:61
+msgid "Rank"
+msgstr "رتبه"
+
+#: templates/shortcodes/avans-user-list.php:62
+msgid "User"
+msgstr "کاربر"
+
+#: templates/shortcodes/avans-voucher-form.php:10
+msgid "You must be logged in to view this form"
+msgstr "شما برای مشاهده این فرم باید وارد شوید"
+
+#: templates/shortcodes/avans-voucher-form.php:18
+#: templates/shortcodes/avans-voucher-form.php:19
+msgid "Enter the code"
+msgstr "کد را وارد کنید"
+
+#: templates/shortcodes/avans-voucher-form.php:27
+msgid "Check the code"
+msgstr "بررسی کد"
+
+#. Plugin Name of the plugin/theme
+msgid "avans gamification plugin"
+msgstr "افزونه گیمیفیکیشن آوانس"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.zhaket.com/web/wp-score-gamification"
+msgstr "https://www.zhaket.com/web/wp-score-gamification"
+
+#. Description of the plugin/theme
+msgid "Powerful tool for your business"
+msgstr "افزونه ای قدرتمند برای رشد کسب و کارتان"
+
+#. Author of the plugin/theme
+msgid "Yousef Mohammadiani"
+msgstr "یوسف محمدیانی"
+
+#. Author URI of the plugin/theme
+msgid "http://mohammadiani.com"
+msgstr "http://mohammadiani.com"
+
+#~ msgid "creation date"
+#~ msgstr "تاریخ ایجاد"
+
+#~ msgid "Re-rating"
+#~ msgstr "امتیازدهی مجدد"
+
+#, fuzzy
+#~| msgid "Congrats, you got {score} points"
+#~ msgid "Congrats , earned {score} points!"
+#~ msgstr "هورااا!، شما {score} امتیاز کسب کردی!"
+
+#~ msgid "i am"
+#~ msgstr "من هستم"

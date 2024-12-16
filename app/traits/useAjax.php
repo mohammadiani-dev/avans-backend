@@ -1,6 +1,6 @@
-<?php  namespace avansdp\override;
+<?php  namespace avansdp\traits;
 
-trait ajax
+trait useAjax
 {
     public function add_ajax( string $name , callable $callback , bool $public = false )
     {
@@ -10,4 +10,3 @@ trait ajax
         }
     }
 }
-
