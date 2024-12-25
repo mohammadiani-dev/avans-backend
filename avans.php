@@ -85,3 +85,40 @@ class avans
 
 
 avans::getInstance();
+
+
+
+add_action("admin_menu" , function () {
+    add_menu_page(
+        __('avans iframe', 'avans_plugin_iframe'),
+        __('avans iframe', 'avans_plugin_iframe'),
+        'manage_avans',
+        'avans_plugin_iframe',
+        'load_iframe_content',
+        'dashicons-awards',
+        45
+    );
+});
+
+function load_iframe_content(){
+    ?>
+    <div class="load_settings">
+        <iframe id="app-iframe"  src="http://localhost:5173/#/" frameborder="0"></iframe>
+    </div>
+    <style>
+        .load_settings iframe{
+            width: 100%;
+            height: calc(100vh - 40px);
+        }
+        #wpfooter{
+            display: none;
+        }
+        #wpbody-content{
+            padding: 0;
+        }
+        #wpcontent{
+            padding: 0;
+        }
+    </style>
+    <?php
+}
