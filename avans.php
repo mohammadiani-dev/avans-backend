@@ -105,6 +105,7 @@ function load_iframe_content(){
     <div class="load_settings">
         <iframe id="app-iframe"  src="http://localhost:5173/#/" frameborder="0"></iframe>
     </div>
+
     <style>
         .load_settings iframe{
             width: 100%;
