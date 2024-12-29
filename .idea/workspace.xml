@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c83e9604-ade0-41f6-965f-899caaab5f87" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/traits/useJsonResponse.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/post_types/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/post_types/base.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/post_types/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/post_types/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +58,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
@@ -79,7 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1735047627369</updated>
       <workItem from="1735047628544" duration="7173000" />
-      <workItem from="1735448574462" duration="4367000" />
+      <workItem from="1735448574462" duration="8051000" />
     </task>
     <servers />
   </component>

@@ -41,6 +41,8 @@ abstract class base
     {
         $this->register();
         $this->add_ajax('save_post_' . $this->name , [$this , 'save'] , true );
+        $this->add_ajax('find_post_' . $this->name , [$this , 'find'] , true );
+        $this->add_ajax('delete_post' , [$this , 'delete'] , true );
     }
 
     private function register()
@@ -68,5 +70,10 @@ abstract class base
 
     public abstract function save();
 
+    public abstract function find();
+
+    public function delete(){
+
+    }
 
 }
