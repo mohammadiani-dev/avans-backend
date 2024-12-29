@@ -7,9 +7,39 @@ class template extends base
         $this->name = AVANS_PREFIX . "template";
         $this->supports = ['title' , 'editor'];
 
+        $this->add_ajax('patterns_list' , [$this , 'list'] , true);
+
         parent::__construct();
     }
 
+    public function list()
+    {
+        $page = $_GET['page'] ?? 1;
+        $per_page = 10;
+
+        $data = [];
+
+        $templates = new \WP_Query([
+            'post_type' => $this->name,
+            'posts_per_page' => $per_page,
+            'offset' => ($page - 1) * $per_page,
+        ]);
+
+        while ($templates->have_posts()) { $templates->the_post();
+            $data['posts'][] = [
+                'code' => get_the_ID(),
+                'title' => get_the_title(),
+                'created_at' => get_the_date('Y/m/d H:i:s'),
+                'type' => get_post_meta( get_the_ID() , AVANS_PREFIX . 'type', true)
+            ];
+        }
+
+        $data['pagination']['total'] = $templates->found_posts;
+        $data['pagination']['current'] = $page;
+        $data['pagination']['per_page'] = $per_page;
+
+        $this->success($data);
+    }
 
     public function find(){
 

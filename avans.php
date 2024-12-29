@@ -105,7 +105,25 @@ function load_iframe_content(){
     <div class="load_settings">
         <iframe id="app-iframe"  src="http://localhost:5173/#/" frameborder="0"></iframe>
     </div>
+    <script>
 
+        document.addEventListener("DOMContentLoaded", function () {
+
+            const iframe = document.getElementById("app-iframe");
+
+            // ارسال hash به iframe
+            window.addEventListener("hashchange", function () {
+                const currentHash = window.location.hash;
+                iframe.contentWindow.postMessage({ type: "updateHash", hash: currentHash }, "*");
+            });
+            // دریافت پیام از iframe
+            window.addEventListener("message", function (event) {
+                if (event.data.type === "updateHash") {
+                    window.location.hash = event.data.hash;
+                }
+            });
+        });
+    </script>
     <style>
         .load_settings iframe{
             width: 100%;
