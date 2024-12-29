@@ -11,5 +11,7 @@
             "name": "Yousef Mohammadiani"
         }
     ],
-    "require": {}
+    "require": {
+      "ext-json": "*"
+    }
 }

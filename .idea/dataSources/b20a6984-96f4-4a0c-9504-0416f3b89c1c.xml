@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="avans@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.49">
+    <root id="1">
+      <DefaultCasing>lower/lower</DefaultCasing>
+      <ServerVersion>8.0.30</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="akhbarroozazad"/>
+    <schema id="3" parent="1" name="allbizi1_namnak"/>
+    <schema id="4" parent="1" name="autotag"/>
+    <schema id="5" parent="1" name="avans">
+      <Current>1</Current>
+    </schema>
+    <schema id="6" parent="1" name="backups"/>
+    <schema id="7" parent="1" name="bizo-db"/>
+    <schema id="8" parent="1" name="bizotopia"/>
+    <schema id="9" parent="1" name="bizref"/>
+    <schema id="10" parent="1" name="blank"/>
+    <schema id="11" parent="1" name="compare"/>
+    <schema id="12" parent="1" name="fartak"/>
+    <schema id="13" parent="1" name="information_schema"/>
+    <schema id="14" parent="1" name="modilish"/>
+    <schema id="15" parent="1" name="mysql"/>
+    <schema id="16" parent="1" name="namnak"/>
+    <schema id="17" parent="1" name="namnak-db"/>
+    <schema id="18" parent="1" name="namnak-test"/>
+    <schema id="19" parent="1" name="news"/>
+    <schema id="20" parent="1" name="performance_schema"/>
+    <schema id="21" parent="1" name="roozazd-backup"/>
+    <schema id="22" parent="1" name="sys"/>
+    <schema id="23" parent="1" name="triboon"/>
+  </database-model>
+</dataSource>

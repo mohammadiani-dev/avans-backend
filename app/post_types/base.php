@@ -1,7 +1,12 @@
 <?php  namespace avansdp\post_types;
 
+use avansdp\traits\useAjax;
+use avansdp\traits\useJsonResponse;
+
 abstract class base
 {
+    use useAjax;
+    use useJsonResponse;
     protected string $name = 'test';
     protected string $label = 'test';
 
@@ -35,6 +40,7 @@ abstract class base
     public function __construct()
     {
         $this->register();
+        $this->add_ajax('save_post_' . $this->name , [$this , 'save'] , true );
     }
 
     private function register()
@@ -60,7 +66,7 @@ abstract class base
         ));
     }
 
-
+    public abstract function save();
 
 
 }

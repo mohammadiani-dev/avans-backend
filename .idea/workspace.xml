@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c83e9604-ade0-41f6-965f-899caaab5f87" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/avans.php" beforeDir="false" afterPath="$PROJECT_DIR$/avans.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/traits/useJsonResponse.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/post_types/base.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/post_types/base.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/post_types/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/post_types/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,9 +39,9 @@
       <path value="$PROJECT_DIR$/../../../../blank" />
     </include_path>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2qfJJuZx8aS7qnzJ0HCb4D5irfv" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -63,6 +63,11 @@
     "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
     "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2023.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1735047627369</updated>
       <workItem from="1735047628544" duration="7173000" />
+      <workItem from="1735448574462" duration="4367000" />
     </task>
     <servers />
   </component>
