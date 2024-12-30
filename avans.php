@@ -40,7 +40,27 @@ class avans
     {
         add_action('init' , [$this , 'init']);
         add_action('init', [$this , 'allow_cors']);
+        add_action('admin_footer' , [$this , 'load_local_scripts']);
 
+    }
+
+    public function load_local_scripts(){
+        ?>
+        <style>
+            .toplevel_page_avans_plugin_iframe  img {
+                position: relative;
+                top: -4px;
+            }
+            .avans-badge-menu{
+                background: #32496a;
+                font-size: 80%;
+                padding:4px 8px;
+                border-radius: 12px;
+                color: #ffffff;
+                font-family: avans, Tahoma,Arial,sans-serif;
+            }
+        </style>
+        <?php
     }
 
     public function allow_cors() {
@@ -89,15 +109,17 @@ avans::getInstance();
 
 
 add_action("admin_menu" , function () {
+
     add_menu_page(
-        __('avans iframe', 'avans_plugin_iframe'),
-        __('avans iframe', 'avans_plugin_iframe'),
+        __('آوانس', 'avans_plugin_iframe'),
+        __('آوانس <span class="avans-badge-menu">جدید</span>', 'avans_plugin_iframe'),
         'manage_avans',
         'avans_plugin_iframe',
         'load_iframe_content',
-        'dashicons-awards',
+         plugin_dir_url(__FILE__) . '/assets/img/logo-menu.png',
         45
     );
+
 });
 
 function load_iframe_content(){

@@ -55,13 +55,15 @@ class template extends base
 
         $post_statuses = get_post_statuses();
 
+        $user = get_user_by($post->post_author , 'ID');
+
         $data = [
             'id' => $id,
             'title' => $post->post_title,
             'status' => $post_statuses[$post->post_status] ?? '',
             'author' => [
-                'id' => get_the_author_ID($id),
-                'name' => get_user_by($post->post_author , 'ID')->display_name
+                'id' => $post->post_author ?? 1,
+                'name' => $user ? $user->display_name : ''
             ],
             'type'  => get_post_meta($id , AVANS_PREFIX . 'type' , true),
             'message'  => get_post_meta($id , AVANS_PREFIX . 'message' , true),
