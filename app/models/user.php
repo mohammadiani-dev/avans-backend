@@ -31,8 +31,8 @@ class user {
             $this->user_id = get_current_user_id();
         }
 
-        $this->table_name = $wpdb->prefix . AVANS_PREFIX . 'points_transactions';
-        $this->table_meta_name = $wpdb->prefix . AVANS_PREFIX . 'points_transactions_meta';
+        $this->table_name = $wpdb->prefix . AVANS_PREFIX . 'point_transactions';
+        $this->table_meta_name = $wpdb->prefix . AVANS_PREFIX . 'point_transactions_meta';
     }
 
     /**
@@ -140,7 +140,7 @@ class user {
         //initialize default data
         $defaults = [
             'score'  => 1,
-            'action' => 'admin',
+            'type' => 'admin',
             'expire' => -1,
             'data'   => [],
         ];
@@ -164,10 +164,10 @@ class user {
         $insert_data['score'] = (float)$data['score'];
 
         //check action value
-        if( !is_string($data['action']) || empty($data['action']) ){
+        if( !is_string($data['type']) || empty($data['type']) ){
             return new WP_Error('not_valid' , __('Activity type is not set!' , AVANS_DOMAIN) );
         }
-        $insert_data['action'] = sanitize_text_field($data['action']);
+        $insert_data['type'] = sanitize_text_field($data['type']);
 
         //check expire value
         if( $data['expire'] > 0 ){

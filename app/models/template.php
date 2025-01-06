@@ -2,14 +2,14 @@
 
 class template {
 
-    private $id;
-    private $title = '';
-    private $content = '';
+    private int $id;
+    private string $title = '';
+    private string $content = '';
 
-    private $type = 'sms';
-    private $settings = [];
+    private string $type = 'sms';
+    private array $settings = [];
 
-    private $status = 'draft';
+    private string $status = 'draft';
 
 
     public function __construct( $id = null ) {
@@ -86,7 +86,7 @@ class template {
         return $this->id;
     }
 
-    public function delete()
+    public function delete() : void
     {
         if( $this->id ){
             wp_delete_post( $this->id );

@@ -2,8 +2,8 @@
 
 class database extends singleton {
 
-    private $prefix;
-    private $avans_prefix;
+    private string $prefix;
+    private string $avans_prefix;
 
     const tables = [
         'segments',
@@ -36,7 +36,7 @@ class database extends singleton {
             foreach ($tables as $table){
                 $table_name = $wpdb->prefix . AVANS_PREFIX . $table;
 
-                if ($wpdb->get_var("SHOW TABLES LIKE '{$table_name}'") != $table_name) {
+                if ($wpdb->get_var("SHOW TABLES LIKE '$table_name'") != $table_name) {
                     $sql = call_user_func([$this, 'get_sql_create_' . $table . '_tbl'], $table_name);
                     dbDelta($sql . " " . $charset_collate);
                 }
@@ -113,6 +113,7 @@ class database extends singleton {
             usage_time int(11) NULL,
             next_time int(11) NULL,
             created_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+            modified_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
             PRIMARY KEY  (id),
             INDEX idx_hook (hook)
         )";
