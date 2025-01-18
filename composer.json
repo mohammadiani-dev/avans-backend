@@ -3,7 +3,8 @@
     "description": "power full tool for implementation gamification methods in wordpress cms",
     "autoload": {
         "psr-4": {
-            "avansdp\\": "app/"
+            "avansdp\\": "app/",
+            "avansmd\\": "modules/"
         }
     },
     "authors": [

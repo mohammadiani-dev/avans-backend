@@ -12,6 +12,16 @@ class constants extends singleton {
         if( !defined('AVANS_DOMAIN') ){
             define("AVANS_DOMAIN" , 'avans');
         }
+        if(!defined('AVANS_DIR_PATH')){
+            define('AVANS_DIR_PATH' , plugin_dir_path(AVANS_PATH));
+        }
+        if(!defined('AVANS_DIR_PATH')){
+            define('AVANS_MODULES' , plugin_dir_path(AVANS_PATH) . '/app/modules/');
+        }
+        if(!defined('AVANS_DIR_URL')){
+            define('AVANS_DIR_URL' , plugin_dir_url(AVANS_PATH));
+        }
+
     }
 
 }

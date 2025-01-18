@@ -14,8 +14,6 @@ Author URI: http://mohammadiani.com
 use avansdp\constants;
 use avansdp\database;
 use avansdp\languages;
-use avansdp\models\user;
-use avansdp\settings;
 
 require_once  __DIR__ . '/vendor/autoload.php';
 
@@ -77,28 +75,29 @@ class avans
 
     public function init() : void
     {
-
+        if(!defined('AVANS_PATH')) define('AVANS_PATH' , __FILE__ );
         new constants();
         new languages();
         new database();
 
-        require_once __DIR__ . '/app/functions.php';
-        require_once __DIR__ . '/app/post_types/loader.php';
-        require_once __DIR__ . '/app/taxonomies/loader.php';
+         require_once __DIR__ . '/app/functions.php';
+
+        // require_once __DIR__ . '/app/post_types/loader.php';
+        // require_once __DIR__ . '/app/taxonomies/loader.php';
 
 
-        new settings();
+        // new settings();
 
 
-        if( is_admin() && !defined('DOING_AJAX') ) {
-            avans_user(1)->add_transaction([
-                'score' => 8,
-                'action' => 'admin',
-                'meta' => array(
-                    'title' => 'salam'
-                )
-            ]);
-        }
+        // if( is_admin() && !defined('DOING_AJAX') ) {
+        //     avans_user(1)->add_transaction([
+        //         'score' => 8,
+        //         'action' => 'admin',
+        //         'meta' => array(
+        //             'title' => 'salam'
+        //         )
+        //     ]);
+        // }
 
     }
 }
